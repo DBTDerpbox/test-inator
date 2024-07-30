@@ -1,12 +1,12 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
+name: Inator
+description: File an inator report.
+title: "[Inator]: "
 labels: ["bug", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this inator report!
   - type: input
     id: inator
     attributes:
