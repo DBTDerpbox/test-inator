@@ -8,7 +8,7 @@ body:
     attributes:
       label: What is the issue?
       description: Please describe what the issue is.
-      placeholder: ex. inator
+      placeholder: ex. Game crashes when [...]
     validations:
       required: true
   - type: textarea
