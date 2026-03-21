@@ -8,6 +8,14 @@ body:
       value: |
         Thanks for taking the time to fill out the submission form!
   - type: input
+    id: repository
+    attributes:
+      label: Mod repository
+      description: Where are your mod files?
+      placeholder: "https://github.com/your-username/your-mod-repository"
+    validations:
+      required: true
+  - type: input
     id: name
     attributes:
       label: Mod name
