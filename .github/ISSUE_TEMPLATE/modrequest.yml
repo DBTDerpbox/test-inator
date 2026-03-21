@@ -21,6 +21,13 @@ body:
       description: What is your map about?
     validations:
       required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload screenshots
+      description: Upload a screenshot (1 or more) of your map
+    validations:
+      required: true
   - type: dropdown
     id: version
     attributes:
