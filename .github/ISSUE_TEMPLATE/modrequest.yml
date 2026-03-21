@@ -1,0 +1,70 @@
+name: Submit a mod
+description: Submit a mod to be added to the official mod list
+title: "[Mod request]: "
+labels: ["request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out the submission form!
+  - type: input
+    id: name
+    attributes:
+      label: Mod name
+      description: What is the name of your mod?
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Map description
+      description: What is your map about?
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: ModTools Version
+      description: What version of ModTools is the map built with?
+      options:
+        - 1.0
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Featured
+        Featured mods are mods that meet the quality of LEM.
+        
+        These are the only mods that will be available in Public Games.
+
+        ### Verified
+        Verified mods are mods that are tested to be safe to use by the LEM moderation team.
+        
+        These mods are only usable in Private Games and ToolBox Servers.
+  - type: dropdown
+    id: category
+    attributes:
+      label: What category are you submitting your mod for?
+      multiple: true
+      options:
+        - Featured
+        - Verified
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra information
+      description: Is there anything else you would like to mention?
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ModTools Rules
+      description: By submitting this mod, you agreed to the [ModTools Submission Rules](https://docs.legacyminigames.net/en/latest/modtools/creation/rules.html) and have done the proper [setup for submission](https://docs.legacyminigames.net/en/latest/modtools/creation/thisguidedoesntexistyetsorry.html).
+      options:
+        - label: I read and agree to the [ModTools Submission Rules](https://docs.legacyminigames.net/en/latest/modtools/creation/rules.html)
+          required: true
+        - label: I have perfomed the required [setup for submission](https://docs.legacyminigames.net/en/latest/modtools/creation/thisguidedoesntexistyetsorry.html)
+          required: true
