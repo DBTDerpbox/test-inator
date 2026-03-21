@@ -1,7 +1,7 @@
 name: Submit a mod
 description: Submit a mod to be added to the official mod list
 title: "[Mod request]: "
-labels: ["request"]
+labels: ["mod request"]
 body:
   - type: markdown
     attributes:
@@ -41,6 +41,7 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Submission Categories
         ### Featured
         Featured mods are mods that meet the quality of LEM.
         
