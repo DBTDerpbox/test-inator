@@ -33,7 +33,7 @@ body:
     id: screenshots
     attributes:
       label: Upload screenshots
-      description: Upload a screenshot (1 or more) of your map
+      description: Upload screenshots of your map, preferably at least 3
     validations:
       required: true
   - type: dropdown
@@ -78,9 +78,11 @@ body:
     id: terms
     attributes:
       label: ModTools Rules
-      description: By submitting this mod, you agreed to the [ModTools Submission Rules](https://docs.legacyminigames.net/en/latest/modtools/creation/rules.html) and have done the proper [setup for submission](https://docs.legacyminigames.net/en/latest/modtools/creation/thisguidedoesntexistyetsorry.html).
+      description: By submitting this mod, you agreed to the [ModTools Submission Rules](https://docs.legacyminigames.net/en/latest/modtools/uploading/rules.html) and have done the proper [setup for submission](https://docs.legacyminigames.net/en/latest/modtools/uploading/post-editor.html).
       options:
-        - label: I read and agree to the [ModTools Submission Rules](https://docs.legacyminigames.net/en/latest/modtools/creation/rules.html)
+        - label: I read and agree to the [ModTools Submission Rules](https://docs.legacyminigames.net/en/latest/modtools/uploading/rules.html)
           required: true
-        - label: I have perfomed the required [setup for submission](https://docs.legacyminigames.net/en/latest/modtools/creation/thisguidedoesntexistyetsorry.html)
+        - label: I have perfomed the required [setup for submission](https://docs.legacyminigames.net/en/latest/modtools/uploading/post-editor.html)
+          required: true
+        - label: I consider my map finished and ready for players to play on it
           required: true
